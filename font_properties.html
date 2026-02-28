@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+        h1 {
+            text-align: center;
+            color: transparent;
+            background-image: linear-gradient(yellow, orange, red);
+            -webkit-background-clip: text;
+            font-size: 50px;
+            font-style: oblique;
+            font-family: "Faster One", system-ui;
+        }
+
+        h1::first-letter {
+            font-size: 80px;
+            text-shadow: 4px 4px 50px aliceblue;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: ivory;
+            margin-left: 20px;
+            font-style: italic;
+        }
+
+        #about-container {
+            text-shadow: 2px 2px 2px black;
+            width: 80vw;
+            font-size: 20px;
+            color: palegoldenrod;
+            margin: 40px;
+            font-family: "Lobster", sans-serif;
+        }
+
+        #technical-strength {
+            background-image: linear-gradient(90deg, #48c6ef 0%, #6f86d6 100%);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px 50px;
+        }
+
+        #technical-strength h4 {
+            font-size: 25px;
+             text-shadow: 2px 2px 2px black;
+            font-style: italic;
+            text-decoration-line: underline;
+        }
+
+        #technical-strength h4:hover {
+            transform: scaleY(1.1);
+            cursor: pointer;
+            text-shadow: 2px 2px 2px gray;
+        }
+
+
+        #technical-strength ol {
+            list-style: none;
+            line-height: 1.8;
+        }
+
+        #technical-strength span {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        li{
+            color: aliceblue;
+            font-style: italic;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        #technical-strength li:hover {
+            cursor: pointer;
+            text-shadow: 2px 2px 2px aliceblue;
+            transform: scale(1.1);
+            
+        }
+        img{
+            height: 120px;
+            width: 120px;
+            border-radius: 20px;
+            margin: 0px 20px;
+            box-shadow: 4px 4px 4px ;
+        }
+
+        #Profile-container{
+            align-items: center;
+            margin-top: 40px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+         #Profile-container img{
+             height: 150px;
+            width: 150px;
+            border-radius:50%;
+            margin: 0px 20px;
+            box-shadow: 4px 4px 4px ;
+         }
+           #Profile-container img:hover{
+            transform: scale(1.1);
+           }
+           body{
+            background-image: radial-gradient(transparent, blue);
+           }
+    </style>
+</head>
+
+<body>
+    <div id="Profile-container" align="right">
+        <h1>My Portfolio</h1>
+        <img src="./images.jpeg" alt="">
+    </div>
+
+
+    <h2>About Me: </h2>
+    <p id="about-container">Hi , I'm XYZ studying in RV Institute of Technology in the AIML branch . I have strong
+        knowledge on Web technologies , programming language , SQL . During my Academic I did one minor(E-commerce
+        Online shopping application) project </p>
+
+    <div id="technical-strength">
+        <h4>My Technical Strength's are :</h4>
+        <ol>
+            <li> <span>Programming :</span> Java , Python , Node Js</li>
+            <li> <span>Web Designing :</span> HTML , CSS , JS , React JS </li>
+            <li> <span>Database:</span> SQL , MySQL , MongoDB</li>
+            <li> <span>Tools : </span> Git , VS Code , Eclipse ,Python IDL</li>
+        </ol>
+    </div>
+
+    <div>
+        <marquee scrollamount="20" behavior="scroll" direction="left">
+            <img src="https://img.icons8.com/color/200/html-5.png" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS12SMucV1yoXW-nEEb70ZXugC-RC7VM43xFg&s" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxBT0Lr3_mymkkCah-68qANdotjT2fUQaUuA&s" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4qx1XWjZGn0HJwnD8S9NIB0s-jOZ1JhxbLw&s" alt="">
+            <img src="https://cdn.worldvectorlogo.com/logos/java.svg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV5MFGcGxvHFf3unQTkMq_FlwZZDE_8EBkWA&s" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFPLXqRyw5PEl4ETnuzYuP5XhUI51sUdQzcg&s" alt="">
+        </marquee>
+    </div>
+
+    <div id="technical-strength">
+        <h4>My Hobbies: </h4>
+        <ol>
+            <li>Learning New Technologies</li>
+            <li>Reading Books </li>
+            <li>Playing Games(chess , Ceram)</li>
+            <li>Traveling</li>
+        </ol>
+    </div>
+</body>
+
+</html>
